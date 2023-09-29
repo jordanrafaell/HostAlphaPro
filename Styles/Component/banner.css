@@ -1,0 +1,32 @@
+main{
+    background-color: var(--cor-azul);
+    height: auto;
+}
+
+.home{
+    display: grid;
+    width: 1024px;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 500px);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.home_text{
+    color: var(--cor-branco);
+    width: 470px;
+}
+
+
+.home_p1{
+    margin-bottom: 30px;
+}
+.home_p2{
+    margin-top: 30px;
+}
+
+.home_img{
+    width: 50%;
+    height: auto;
+}
+
