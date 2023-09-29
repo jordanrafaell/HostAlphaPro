@@ -17,7 +17,6 @@ dedicado à criação de templates altamente personalizáveis para a criação d
 
 - Typed.js
 - Bootstrap
-- Jquery
 
 ## Créditos:
 
