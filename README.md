@@ -24,7 +24,7 @@ dedicado à criação de templates altamente personalizáveis para a criação d
 
 ## Gostou deste Template?
 
-<img  alt="HTML"  style="padding-right:10px;" src="https://github.com/jordanrafaell/HostProAlpha.github.io/assets/61181764/4e28fff7-5449-44e8-9d33-299e38da3360"/>
+<img  alt="HTML"  style="padding-right:10px;" src="https://github.com/jordanrafaell/HostProAlpha.github.io/assets/61181764/69efb3fc-6df8-400a-a34c-31acf34eb4ec"/>
 
 Se você achou este template útil, considere deixar uma ⭐ no repositório para mostrar seu apoio!
 
