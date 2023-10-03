@@ -13,7 +13,7 @@ dedicado à criação de templates altamente personalizáveis para a criação d
 - CSS
 - JavaScript
 
-## Bibliotecas:
+## Bibliotecas
 
 - Typed.js
 - Bootstrap
