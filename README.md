@@ -4,7 +4,7 @@
 
 ## Descrição:
 
-HostProAlpha é um projeto pessoal em desenvolvimento,
+HostAlphaPro é um projeto pessoal em desenvolvimento,
 dedicado à criação de templates altamente personalizáveis para a criação de sites incríveis.
 
 ## Tecnologias Utilizadas:
@@ -24,7 +24,7 @@ dedicado à criação de templates altamente personalizáveis para a criação d
 
 ## Gostou deste Template?
 
-<img  alt="HTML"  style="padding-right:10px;" src="https://github.com/jordanrafaell/HostProAlpha.github.io/assets/61181764/69efb3fc-6df8-400a-a34c-31acf34eb4ec"/>
+<img  alt="HTML"  style="padding-right:10px;" src="https://github.com/jordanrafaell/HostAlphaPro.github.io/assets/61181764/b3b7da2f-ccfa-4cdb-b938-698893d7541d"/>
 
 Se você achou este template útil, considere deixar uma ⭐ no repositório para mostrar seu apoio!
 
