@@ -1,15 +1,10 @@
 main{
+    position: relative;
+    top: 0;
     background-color: var(--cor-azul);
+    width: 100%;
     height: auto;
-}
-
-.home{
-    display: grid;
-    width: 1024px;
-    height: 100%;
-    grid-template-columns: repeat(auto-fill, 500px);
-    align-items: center;
-    margin: 0 auto;
+    z-index: 1;
 }
 
 .home_text{
@@ -19,6 +14,8 @@ main{
 
 
 .home_p1{
+    max-width: 350px;
+    width: auto;
     margin-bottom: 30px;
 }
 .home_p2{
@@ -28,5 +25,12 @@ main{
 .home_img{
     width: 50%;
     height: auto;
+}
+
+.container{
+    display: grid;
+    width: 1024px;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, 500px);
 }
 

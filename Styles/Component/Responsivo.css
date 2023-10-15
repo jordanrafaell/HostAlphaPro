@@ -1,0 +1,71 @@
+/* Header / Nav menu */
+.mobile{
+    display: none;
+}
+
+.active{
+    display: block !important;
+}
+@media (max-width: 760px) and (min-width: 200px) {
+    .menu_container {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .btn_mobile{
+        border: none;
+    }
+    
+    .btn_mobile img {
+        display: flex;
+        float: right;
+        margin-right: 10px;
+        width: 40px;
+    }
+
+    .list_mobile{
+        display: flex;
+        width: 50%;
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        border: 0.1px solid white;
+        line-height: 2.5em;
+        z-index: 2;
+    }
+
+    .list_mobile li {
+        width: 100%;
+        line-height: 60px;
+        margin: 10px 0 0 0;
+    }
+
+    .list_mobile a {
+        padding-block: 1.2rem;
+        padding-inline: 5px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .list_mobile a:hover {
+        color: red;
+    }
+}
+
+.mobile.active{
+    display: block;
+}
+
+.list_mobile{
+    display: none;
+}
