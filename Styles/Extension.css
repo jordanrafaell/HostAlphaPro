@@ -1,22 +1,16 @@
 /* Estilos importados */
 @import './Component/anuncios.css';
-@import './Component/banner.css';
+@import './Component/Home.css';
 @import './Component/footer.css';
 @import './Component/globais.css';
 @import './Component/nav.css';
 @import './Component/Responsivo.css';
 @import './Component/table.css';
+@import './Component/imagens.css';
+@import './Component/Mobile.css';
 
 /* Fonte de Texto Importados */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,500;1,600&family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-/* Importações globais */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins","sans-serif";
-}
 
 /* Estilos de Cores Importados */
 :root{
@@ -29,7 +23,7 @@
     --cor-branco-claro:#f1f3f7; /*nas duas partes*/
     --cor-branco-escuro:#f6f6f6; /*nas duas partes*/
     --cor-cinza:#a89f9f; /*nas duas partes*/
-    --cor-azul:#2f86d6; /*nas duas partes*/
+    --cor-azul:#1566fcda; /*nas duas partes*/
     --cor-azul-2:#020c38;
 
     /* Paletas de cores utilizadas na página Tabela de Preços */
