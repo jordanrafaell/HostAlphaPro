@@ -1,0 +1,153 @@
+.anuncios{
+    display: flex;
+    width: 100%;
+    background-color: var(--cor-azul-2);
+    color: var(--cor-branco);
+}
+
+.anuncio_grid{
+    display: flex;
+    width: 100%;
+    min-height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_anuncio{
+    width: 600px;
+}
+
+.text_anuncio h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.text_anuncio p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.a_anuncio {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: inherit;
+    gap: 10px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: var(--cor-azul);
+}
+
+.a_anuncio img{
+    width: 20px;
+    height: 25px;
+}
+
+@media (max-width: 900px) and (min-width: 100px){
+
+    .anuncios{
+        height: 100%;
+    }
+
+    .anuncio_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .a_anuncio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 90px;
+    }
+    .text_anuncio {
+        width: 100%;
+        text-align: center;
+    }
+    
+
+}
+
+/* Segundo anuncio */
+
+.anuncios2{
+    display: flex;
+    width: 100%;
+    background-color: var(--cor-azul);
+    color: var(--cor-branco);
+}
+
+.anuncio_grid2{
+    display: flex;
+    width: 100%;
+    min-height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_anuncio2{
+    width: 600px;
+}
+
+.text_anuncio2 h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.text_anuncio2 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.a_anuncio2 {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: inherit;
+    gap: 10px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: rgb(68, 0, 255);
+}
+
+.a_anuncio2 img{
+    width: 20px;
+    height: 25px;
+}
+
+@media (max-width: 900px) and (min-width: 100px){
+
+    .anuncios2{
+        height: 100%;
+    }
+
+    .anuncio_grid2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .a_anuncio2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 90px;
+    }
+    .text_anuncio2 {
+        width: 100%;
+        text-align: center;
+    }
+    
+
+}

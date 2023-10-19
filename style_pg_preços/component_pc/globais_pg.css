@@ -29,6 +29,7 @@ a {
     text-decoration: none;
 }
 
-.span_azul {
-    color: var(--cor-azul);
+img{
+    width: 100%;
+    max-width: 120px;
 }

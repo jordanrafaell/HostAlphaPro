@@ -1,0 +1,23 @@
+.Informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Informacoes h2{
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: none;
+}
+
+.card img{
+    width: 100px;
+    margin: 0 auto  ;
+}

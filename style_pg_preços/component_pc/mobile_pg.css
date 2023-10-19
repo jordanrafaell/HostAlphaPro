@@ -1,5 +1,5 @@
 /* Header / Nav menu */
-.mobile {
+.mobile_pc {
     display: none;
 }
 
@@ -8,28 +8,28 @@
 }
 
 @media (max-width: 880px) and (min-width: 10px) {
-    .menu_container {
+    .menu_container_pc {
         display: none;
     }
-    .mobile {
+
+    .mobile_pc {
         display: flex;
         width: 100%;
-        height: 50px;
         position: fixed;
         top: 0;
         z-index: 10;
     }
-
-    .btn_mobile {
+    
+    .btn_mobile_pc {
         display: flex;
         position: fixed;
         border: none;
         width: 100%;
         height: 50px;
-        background-color: var(--cor-azul);
+        background-color: rgb(0, 89, 255);
     }
 
-    .btn_mobile img {
+    .btn_mobile_pc img {
         display: flex;
         float: right;
         position: absolute;
@@ -38,15 +38,15 @@
         max-width: 40px;
         width: 100%;
     }
-    .list_mobile a:hover{
+    .list_mobile_pc a:hover{
         border-radius: 1px solid white;
     }
 
-    .list_mobile {
+    .list_mobile_pc {
         display: flex;
         text-align: center;
         background-color: rgba(56, 155, 248, 0.644);
-        height: 42vh;
+        height: auto;
         z-index: 10;
         position: absolute;
         width: 100%;
@@ -54,7 +54,7 @@
     }
 
 
-    .list_mobile li {
+    .list_mobile_pc li {
         display: flex;
         width: 100%;
         max-width: 300px;
@@ -67,11 +67,11 @@
         background-color: rgba(15, 75, 241, 0.623);
     }
     
-    .list_mobile li:hover{
+    .list_mobile_pc li:hover{
         box-shadow: 0 1px 4px white;
     }
 
-    .list_mobile a {
+    .list_mobile_pc a {
         padding-block: 1.2rem;
         padding-inline: 10rem;
         text-decoration: none;
@@ -81,10 +81,10 @@
     }
 }
 
-.mobile.active {
+.mobile_pc.active {
     display: block !important;
 }
 
-.list_mobile {
+.list_mobile_pc {
     display: none;
 }
