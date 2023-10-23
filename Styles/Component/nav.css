@@ -24,17 +24,17 @@
 }
 
 .logo_menu img {
-    width: 80px;
+    width: 70px;
     height: 80px;
     position: relative;
     top: 0.7rem;
-    right: 7rem;
+    right: 6rem;
 }
 
 .text_logo {
     position: absolute;
     top: 3rem;
-    margin-left: 6rem;
+    margin-left: 8rem;
     line-height: 30px;
 }
 
