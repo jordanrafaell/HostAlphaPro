@@ -4,7 +4,7 @@
 
 ## Descrição:
 
-HostAlphaPro é um projeto pessoal em desenvolvimento,
+HostAlphaPro é um projeto pessoal desenvolvido,
 dedicado à criação de templates altamente personalizáveis para a criação de sites incríveis.
 
 ## Tecnologias Utilizadas:
